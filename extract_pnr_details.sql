@@ -2,6 +2,7 @@
 --       Title:07.14.01.01 - Crew Change - Import flight details - Segments
 -- Description:Write a TSQL function that as an input takes FlightPNR and extracts from this field all details about flight connection (segments)
 ----------------------------------------------------------------------
+-- https://www.easypnr.com/blog/amadeus-pnr-examples/
 
 -- initialize 
 declare @flight_details    varchar(8000) = 
